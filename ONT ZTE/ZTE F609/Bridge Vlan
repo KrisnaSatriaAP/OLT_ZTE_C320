@@ -1,4 +1,4 @@
-#buat vlan di olt, bisa di ganti sesuai kebutuhan (124)
+#buat vlan di olt, bisa di ganti sesuai kebutuhan
 conf t
 vlan 124
 name vlan_budi_bendo
