@@ -36,7 +36,7 @@ pppoe-plus enable sport 1
 pppoe-plus trust true replace sport 1
 exit
 
-##manajemen internal ONU
+#manajemen internal ONU
 pon-onu-mng gpon-onu_1/2/2:14
 service PPPOE type internet gemport 1 vlan 501
 service PPPOE1 type internet gemport 2 vlan 136
