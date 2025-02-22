@@ -1,0 +1,40 @@
+#buat vlan di olt, bisa di ganti sesuai kebutuhan (124)
+conf t
+vlan 124
+name vlan_budi_bendo
+exit
+int xgei_1/3/2
+switchport vlan 124 tag
+end
+write
+
+#mendaftarkan ONU
+conf t
+interface gpon-olt_1/2/7
+onu 25 type ZTEG-F609 sn ZTEGC838B0CB
+exit
+
+#konfigurasi Interface OLT GPON
+interface gpon-onu_1/2/7:25
+name HUB ONU LOKASI BUDI BENDO
+description HUB ONU LOKASI BUDI BENDO
+tcont 1 name PPPOE profile 1000M
+gemport 1 name PPPOE unicast tcont 1 dir both
+switchport mode hybrid vport 1
+service-port 1 vport 1 user-vlan 124 vlan 124 
+exit
+
+#manajemen internal ONU
+pon-onu-mng gpon-onu_1/2/7:25
+service BRIDGE gemport 1 vlan 124
+interface wifi wifi_0/1 state lock
+vlan port eth_0/1 mode tag vlan 124
+vlan port eth_0/2 mode tag vlan 124
+vlan port eth_0/3 mode tag vlan 124
+vlan port eth_0/4 mode tag vlan 124
+dhcp-ip ethuni eth_0/1 from-internet
+dhcp-ip ethuni eth_0/2 from-internet
+dhcp-ip ethuni eth_0/3 from-internet
+dhcp-ip ethuni eth_0/4 from-internet
+end
+write
