@@ -8,7 +8,7 @@ switchport vlan 136 tag
 end
 write
 
-##mendaftarkan ONU
+#mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/2
 onu 14 type ZTEG-F609 sn ZTEGC836E032
