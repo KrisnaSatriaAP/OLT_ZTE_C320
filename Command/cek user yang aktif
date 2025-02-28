@@ -1,0 +1,7 @@
+show users
+
+hasil :
+ZXAN#show users
+   Line      User         Idle        Server(s)            Client
+   66 vty 0  admin        00:48:40    self                 192.168.51.1
+ * 67 vty 1  admin        00:00:00    self                 192.168.51.1
