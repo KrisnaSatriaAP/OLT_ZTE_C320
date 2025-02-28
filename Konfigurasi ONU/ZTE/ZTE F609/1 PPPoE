@@ -1,12 +1,12 @@
 #ONU ZTE F609 - PPPoE
 
-#Mendaftarkan ONU
+#mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/3
 onu 83 type ZTE-F609 sn ZTEGCD994FFA
 exit
 
-#Konfigurasi
+#konfigurasi
 interface gpon-onu_1/2/3:83
 name gedangsewu@laudya_rena_maulana
 description gedangsewu@laudya_rena_maulana
@@ -24,7 +24,7 @@ pppoe-plus enable sport 1
 pppoe-plus trust true replace sport 1
 exit
 
-#Konfigurasi
+#konfigurasi
 pon-onu-mng gpon-onu_1/2/3:83
 service PPPOE type internet gemport 1 vlan 501
 wan-ip 1 mode pppoe username gedangsewu@laudya_rena_maulana password 5758 vlan-profile PPPOE host 1
@@ -33,3 +33,8 @@ security-mng 1 state enable mode permit protocol web
 end
 
 write #jika sudah yakin benar
+
+#reset onu
+conf t
+pon-onu-mng gpon-onu_1/2/3:83
+restore factory
