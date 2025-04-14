@@ -1,0 +1,14 @@
+show mac vlan 505
+
+hasil :
+ZXAN#show mac vlan 505
+Total mac address : 6
+
+Mac address      Vlan   Type      Port                         Vc
+------------------------------------------------------------------------
+0855.312c.d6ee   505    Dynamic   xgei_1/3/2
+e4ca.12d6.725e   505    Dynamic   gpon-onu_1/2/1:44         vport 1
+5c54.6d20.20e0   505    Dynamic   gpon-onu_1/2/4:28         vport 1
+ecf0.fe8f.f502   505    Dynamic   gpon-onu_1/2/4:63         vport 1
+6cd2.ba1e.1678   505    Dynamic   gpon-onu_1/2/6:37         vport 1
+8cdc.0204.60ca   505    Dynamic   gpon-onu_1/2/9:26         vport 1
