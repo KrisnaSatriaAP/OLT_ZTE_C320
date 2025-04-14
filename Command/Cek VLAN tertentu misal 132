@@ -1,0 +1,15 @@
+sho vlan 131
+
+hasil :
+ZXAN#sho vlan 131
+%Code 30514: This vlan does not exist.
+ZXAN#sho vlan 132
+vlanid          :132
+name            :vlan132_pppoe
+description     :N/A
+multicast-packet:flood-unknown
+tpid:0x8100
+port(untagged):
+port(tagged):
+  gpon-onu_1/2/10:21:1
+  gei_1/3/1,3  xgei_1/3/2
