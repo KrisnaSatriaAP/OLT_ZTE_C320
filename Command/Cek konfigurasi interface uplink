@@ -1,0 +1,21 @@
+show ru int xgei_1/3/2
+
+hasil :
+ZXAN#show ru int xgei_1/3/2
+Building configuration...
+!
+interface xgei_1/3/2
+  phy-attribute lan
+  hybrid-attribute fiber
+  no negotiation auto
+  speed 10000
+  duplex full
+  flowcontrol disable
+  port-protect disable
+  uplink-isolate disable
+  switchport mode hybrid
+  switchport vlan 124,126-130,132-135 tag
+  switchport vlan 137,149,401,501-502 tag
+  switchport vlan 505,510-511,603  tag
+!
+end
