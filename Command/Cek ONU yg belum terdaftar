@@ -1,1 +1,14 @@
 sho gpon onu uncf
+
+hasil :
+ZXAN#sho gpon onu uncf
+OnuIndex                 Sn                  State
+---------------------------------------------------------------------
+gpon-onu_1/2/5:1         HWTCD0770155        unknown
+
+berarti onu di dengan Sn HWTCD0770155 belum di daftarkan
+
+jika hasil seperti di bawah maka belum ada onu baru yang masuk ke OLT
+tidak ada onu baru : 
+ZXAN#sho gpon onu uncf
+%Code 32310-GPONSRV : No related information to show.
