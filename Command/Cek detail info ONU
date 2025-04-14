@@ -1,0 +1,40 @@
+show gpon onu detail-info gpon-onu_1/2/5:5
+
+ZXAN#show gpon onu detail-info gpon-onu_1/2/5:5
+
+ONU interface:         gpon-onu_1/2/5:5
+  Name:                onu 5
+  Type:                ZTEG-F609
+  State:               ready
+  Admin state:         enable
+  Phase state:         working
+  Authentication mode: sn
+  SN Bind:             enable with SN check
+  Serial number:       ZTEGC877785D
+  Password:
+  Device ID:
+  Description:         onu 5
+  Vport mode:          gemport
+  DBA Mode:            Hybrid
+  ONU Status:          enable
+  OMCI BW Profile:     enable
+  Line Profile:        N/A
+  Service Profile:     N/A
+  Alarm Profile:       N/A
+  Performance Profile: N/A
+  ONU Distance:        804m
+  Online Duration:     42h 09m 02s
+  FEC:                 none
+  1PPS+ToD:            disable
+------------------------------------------
+       Authpass Time          OfflineTime             Cause
+   1   2025-03-10 15:22:06    2025-03-13 14:31:25     DyingGasp
+   2   2025-03-13 14:38:53    2025-03-13 14:46:09     DyingGasp
+   3   2025-03-13 16:09:07    2025-03-16 09:01:43     DyingGasp
+   4   2025-03-16 09:08:02    2025-03-24 15:44:17     DyingGasp
+   5   2025-03-24 15:57:38    2025-03-29 00:53:21     DyingGasp
+   6   2025-03-29 01:14:49    2025-03-30 09:27:40     DyingGasp
+   7   2025-03-30 09:42:42    2025-03-31 21:26:00     DyingGasp
+   8   2025-03-31 21:30:29    2025-04-06 15:23:50     DyingGasp
+   9   2025-04-06 15:24:41    2025-04-12 15:30:29     DyingGasp
+  10   2025-04-12 15:42:06    0000-00-00 00:00:00
