@@ -1,0 +1,17 @@
+sho snmp config
+
+hasil :
+ZXAN#sho snmp config
+snmp-server location No.889 BiBo Rd. PuDong District, ShangHai, China
+snmp-server contact +86-021-68895000
+snmp-server packetSize 8192
+snmp-server engine-id 80000f3e0300143ebfb74340
+snmp-server community public view allview ro
+snmp-server view allview org included
+snmp-server view DefaultView system included
+snmp-server enable trap SNMP
+snmp-server enable trap VPN
+snmp-server enable trap BGP
+snmp-server enable trap OSPF
+snmp-server enable trap RMON
+snmp-server enable trap STALARM
