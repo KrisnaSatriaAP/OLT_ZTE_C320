@@ -1,0 +1,27 @@
+show run interface gpon-onu_1/2/5:5
+
+hasil :
+ZXAN#show run interface gpon-onu_1/2/5:5
+Building configuration...
+!
+interface gpon-onu_1/2/5:5
+  name tertek@hari_sudi-astutik
+  description tertek@hari_sudi-astutik
+  tcont 1 name PPPOE profile 15M
+  tcont 2 name HOSTPOT profile 15M
+  gemport 1 name PPPOE unicast tcont 1 dir both
+  gemport 1 traffic-limit upstream UP100 downstream DW100
+  gemport 2 name HOSTPOT unicast tcont 2 dir both
+  gemport 2 traffic-limit upstream UP100 downstream DW100
+  switchport mode hybrid vport 1
+  switchport mode hybrid vport 2
+  service-port 1 vport 1 user-vlan 501 vlan 501
+  service-port 2 vport 2 user-vlan 500 vlan 500
+  port-location format dsl-forum sport 1
+  port-location sub-option remote-id enable sport 1
+  port-location sub-option remote-id name 501 sport 1
+  port-location ft-cid 501 sport 1
+  pppoe-plus enable sport 1
+  pppoe-plus trust true replace sport 1
+!
+end
