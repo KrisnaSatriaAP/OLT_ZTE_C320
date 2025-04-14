@@ -1,0 +1,5 @@
+conf t
+gpon
+no onu profile vlan netmedia143
+end
+write
