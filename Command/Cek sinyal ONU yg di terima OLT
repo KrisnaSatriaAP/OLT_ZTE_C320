@@ -1,0 +1,5 @@
+show pon power olt-rx gpon-onu_1/2/1:10
+
+hasil :
+ZXAN#show pon power olt-rx gpon-onu_1/2/1:10
+Rx power: -29.105(dbm)
