@@ -1,0 +1,31 @@
+sho snmp
+
+hasil :
+ZXAN#show vlan port gei_1/3/2
+                    ^
+% Invalid input detected at '^' marker.
+ZXAN#sho snmp
+Contact : +86-021-68895000
+Location: No.889 BiBo Rd. PuDong District, ShangHai, China
+2845      SNMP packets input
+0         Bad SNMP version errors
+0         Unknown community name
+20        Illegal operation for community name supplied
+43475     Number of requested variables
+0         Number of altered variables
+169       Get-request PDUs
+494       Get-next PDUs
+0         Get-bulk PDUs
+0         Set-request PDUs
+2825      SNMP packets output
+0         Too big errors (Maximum packet size 8192)
+14        No such name errors
+0         Bad values errors
+0         General errors
+2825      Response PDUs
+0         SNMP trap PDUs
+0         SnmpGetIdleCallListFails
+0         SnmpGetCallListFails
+0         SnmpPostToExcuteFails
+0         SnmpTimeOuts
+0         SnmpAsynTimeOuts
