@@ -1,0 +1,157 @@
+sho gpon remote-onu ip-host gpon-onu_1/2/5:5
+
+hasil :
+ZXAN#sho gpon remote-onu ip-host gpon-onu_1/2/5:5
+
+Host ID:            1
+HostName:           omci_ipv4_pppoe_1
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                20e8.82cd.3ce9
+CurIP:              10.171.16.36
+CurMask:            255.255.255.255
+CurGateway:         10.171.16.88
+CurPriDNS:          10.171.16.88
+CurSecDNS:          10.19.40.1
+DomainName:
+
+Host ID:            2
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+Host ID:            3
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+Host ID:            4
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+Host ID:            5
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+
+Host ID:            6
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+Host ID:            7
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
+
+Host ID:            8
+HostName:
+Identify:
+IP:                 0.0.0.0
+Mask:               0.0.0.0
+Gateway:            0.0.0.0
+Primary DNS:        0.0.0.0
+Second DNS:         0.0.0.0
+DHCP-enable:        false
+Ping-response:      false
+Traceroute-response:false
+MAC:                0000.0000.0000
+CurIP:              0.0.0.0
+CurMask:            0.0.0.0
+CurGateway:         0.0.0.0
+CurPriDNS:          0.0.0.0
+CurSecDNS:          0.0.0.0
+DomainName:
