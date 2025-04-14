@@ -1,0 +1,28 @@
+#ZTE-F660
+conf t
+pon
+onu-type ZTE-F660 gpon description 4ETH,2POTS,WIFI service-mgmt-via-non-omci wifi enable
+onu-type ZTE-F660 gpon max-tcont 7 max-gemport 32 max-switch-perslot 8 max-flow-perswitch 32 max-iphost 5
+onu-type-if ZTE-F660 eth_0/1-4
+onu-type-if ZTE-F660 pots_0/1-2
+onu-type-if ZTE-F660 wifi_0/1-4
+end
+write
+
+#ZTE-F609
+conf t
+pon
+onu-type ZTE-F609 gpon description 4ETH,2POTS,WIFI service-mgmt-via-non-omci wifi enable
+onu-type ZTE-F609 gpon max-tcont 7 max-gemport 32 max-switch-perslot 8 max-flow-perswitch 32 max-iphost 5
+onu-type-if ZTE-F609 eth_0/1-4
+onu-type-if ZTE-F609 pots_0/1-2
+onu-type-if ZTE-F609 wifi_0/1-4
+end
+write
+
+#HUAWEI-HG8546M
+conf t
+pon
+onu-type HUAWEI-HG8546M gpon description 1GE+3FE,1POTS,WIFI max-tcont 40 max-gemport 255 max-switch-perslot 32 max-flow-perswitch 200 max-iphost 5
+end
+write
