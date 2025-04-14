@@ -1,0 +1,14 @@
+show card slotno 2
+
+Hasil :
+ZXAN#show card slotno 2
+Config-Type   : GTGH      Status              : INSERVICE
+Real-Type     : GTGHG     Serial-Number       : 708134702467
+Port-Number   : 16        BootROM-VER         : V4.0.5  2014-12-17 13:37:42
+PCB-VER       : 140901    Software-VER        : V1.2.5P3  2015-01-05 03:42:43
+Cpld-VER      : V1.3
+Phy-Mem-Size  : 512MB     Main-CPU            : PowerPC Processor
+Cpu-Usage     : 38%       Cpu-Alarm-Threshold : 100%
+Mem-Usage     : 37%       Mem-Alarm-Threshold : 100%
+Last restart reason: Power-off
+Uptime        : 114 Day , 1 Hours , 31 Minutes , 24 Second
