@@ -1,0 +1,5 @@
+conf t
+int xgei_1/3/2
+switchport vlan 132 tag
+end
+write
