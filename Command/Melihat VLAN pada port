@@ -1,0 +1,27 @@
+1.
+show vlan port xgei_1/3/2
+
+hasil :
+ZXAN#show vlan port xgei_1/3/2
+PortMode    Pvid  CPvid Tpid/mode   TLSStatus TLSVlan
+-------------------------------------------------
+hybrid      1     0     0x8100/PORT disable   0
+UntaggedVlan:
+
+TaggedVlan:
+124,126-130,132-135,137,149,401,501-502,505
+510-511,603
+
+-----------------------------------------------------------------
+2.
+show vlan port gei_1/3/1
+
+hasil :
+ZXAN#show vlan port gei_1/3/1
+PortMode    Pvid  CPvid Tpid/mode   TLSStatus TLSVlan
+-------------------------------------------------
+hybrid      1     0     0x8100/PORT disable   0
+UntaggedVlan:
+
+TaggedVlan:
+124,126-130,132-134,149,401,501-502,505
