@@ -1,0 +1,6 @@
+conf t
+vlan 401
+name vlan_401_pppoe
+exit
+end
+write
