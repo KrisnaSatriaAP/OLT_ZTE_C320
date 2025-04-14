@@ -1,0 +1,2 @@
+pon-onu-mng gpon-onu_1/2/5:5
+iinterface eth eth_0/1 state unlock
