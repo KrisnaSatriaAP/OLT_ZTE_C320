@@ -1,0 +1,3 @@
+config t
+pon-onu-mng gpon-onu_1/2/5:5
+interface eth eth_0/1 state lock
