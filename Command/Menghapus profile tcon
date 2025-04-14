@@ -1,0 +1,5 @@
+conf t
+gpon
+no profile tcon 100M
+end
+write
