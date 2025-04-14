@@ -1,0 +1,37 @@
+sho int optical-module-info xgei_1/3/2
+
+hasil :
+ZXAN#sho int optical-module-info xgei_1/3/2
+  Optical module information:xgei_1/3/2
+  Basic-info:
+   Vendor-Name    : S+DA0001                 Vendor-Pn      : S+DA0001
+   Vendor-Sn      : SK180322C11355           Version-Lev    : D
+   Production-Date: 17070070                 Module-Type    :
+   Wavelength     : 3072      (nm)           Connector      : unknown
+   Fiber-Type     : N/A
+   Material-Number:
+                   69 00 6e 00 00 00 73 00 65 00
+                   73 00 5c 00 43 ff ff 00 00 00
+
+  Register-Data   :
+                   29 00 21 00 af 01 0c 00 00 00 00 00
+                   65 00 67 00 69 00 73 00 74 00 72 00
+                   79 00 5c 00 4d 00 61 00 63 00 68 00
+                   69 00 6e 00 65 00 5c 00 53 00 6f 00
+                   66 00 74 00 77 00 61 00 72 00 65 00
+                   5c 00 43 00 6c 00 61 00 73 00 73 00
+                   65 00 73 00 5c 00 53 00 79 00 73 00
+                   74 00 65 00 6d 00 46 00 69 00 6c 00
+                   65 00 41 00 73 00 73 00 6f 00 63 00
+                   69 00 61 00 74 00 69 00 6f 00 6e 00
+                   73 00 5c 00 2e 00 62 00
+  Diagnostic-info:
+   RxPower         : N/A                     TxPower        : N/A
+   Bias-Current    : N/A                     Laser-Rate     : 103(100Mb/s)
+   Temperature     : N/A                     Supply-Vol     : N/A
+  Alarm-thresh:
+   RxPower-Upper    : 3  (dbm)               RxPower-Lower    : -34(dbm)
+   TxPower-Upper    : 9  (dbm)               TxPower-Lower    : -14(dbm)
+   Bias-Upper       : 131(mA)                Bias-Lower       : 0  (mA)
+   Voltage-Upper    : 7  (v)                 Voltage-Lower    : 0  (v)
+   Temperature-Upper: 90 (c)                 Temperature-Lower: -45(c)
