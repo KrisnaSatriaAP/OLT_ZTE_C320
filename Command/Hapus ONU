@@ -1,0 +1,5 @@
+conf t
+interface gpon-olt_1/2/16
+no onu 15
+end #untuk mengakhiri/keluar
+write #untuk menyimpan konfigurasi
