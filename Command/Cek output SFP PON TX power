@@ -1,1 +1,5 @@
 sho pon power olt-tx gpon-olt_1/2/3
+
+hasil :
+ZXAN#sho pon power olt-tx gpon-olt_1/2/3
+Tx power: 6.389(dbm)
