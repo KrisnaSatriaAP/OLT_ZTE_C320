@@ -1,0 +1,5 @@
+conf t
+gpon
+profile traffic 100M sir 105000 pir 105000
+end
+write
