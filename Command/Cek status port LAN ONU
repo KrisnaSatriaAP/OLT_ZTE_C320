@@ -1,0 +1,68 @@
+show gpon remote-onu interface eth gpon-onu_1/2/5:5
+
+hasil :
+ZXAN#show gpon remote-onu interface eth gpon-onu_1/2/5:5
+
+Interface:     eth_0/1
+Speed status:  auto
+Operate status:disable
+Admin status:  unlock
+Arc:           0
+Arc-interval   0
+Expect-type:   0
+Speed config:  auto
+Eth-loop:      disable
+Max-frame:     1632
+Pause-time:    0
+Wiring :       dce
+BridgeOrIP:    either
+PPPOE-filter:  disable
+Power-control: disable
+
+Interface:     eth_0/2
+Speed status:  auto
+Operate status:disable
+Admin status:  unlock
+Arc:           0
+Arc-interval   0
+Expect-type:   0
+Speed config:  auto
+Eth-loop:      disable
+Max-frame:     1632
+Pause-time:    0
+Wiring :       dce
+BridgeOrIP:    either
+PPPOE-filter:  disable
+Power-control: disable
+
+Interface:     eth_0/3
+Speed status:  auto
+Operate status:disable
+Admin status:  unlock
+Arc:           0
+Arc-interval   0
+Expect-type:   0
+Speed config:  auto
+Eth-loop:      disable
+Max-frame:     1632
+Pause-time:    0
+Wiring :       dce
+BridgeOrIP:    either
+PPPOE-filter:  disable
+Power-control: disable
+
+Interface:     eth_0/4
+Speed status:  auto
+Operate status:disable
+Admin status:  unlock
+Arc:           0
+Arc-interval   0
+Expect-type:   0
+Speed config:  auto
+Eth-loop:      disable
+Max-frame:     1632
+Pause-time:    0
+Wiring :       dce
+BridgeOrIP:    either
+PPPOE-filter:  disable
+Power-control: disable
