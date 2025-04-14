@@ -1,0 +1,51 @@
+cfm	Connectivity fault management
+clear          	Reset functions
+clock   	Manage the system clock
+cnicping       	Ping out equipment via cnic.
+configure      	Enter configuration mode
+copy           	Copy srcfile to dst
+cpe            	Cpe manual operation
+debug          	Debugging functions
+delete         	Delete file
+diagnose       	Enter diagnosis mode
+dir            	List file information
+disable        	Turn off privileged commands
+download       	Download file from host
+enable         	Turn on privileged commands
+epm            	Epm
+exit           	Exit from the EXEC
+getconnmap     	Get the connect map.
+igmp           	Config IGMP
+load-balance   	Config load-balance attribute
+login          	Login as a particular user
+logout         	Exit from the EXEC
+manual-backup  	Start  manual backup
+mld            	Config MLD
+no             	Negate a command or set its defaults
+onu-script     	Save onu config script
+patch          	Patch load or unload to version
+ping           	Send echo messages
+ping6          	Send IPv6 echo messages
+qry            	Qry MP is ready to change-over
+reboot         	Reboot a shelf
+reset-card     	Reset a card
+restore        	Restore factory defaults
+rlogin         	Open a group telnet connection
+script         	Script functions
+show           	Show running system information
+shutdown       	Shutdown the machine
+swap           	MP changeover
+swapver        	Swap MP active version
+sync-file      	Sync file to backup board
+telnet         	Open a telnet connection
+telnet6        	Open a telnet6 connection
+terminal       	Set terminal line parameters
+test           	for multicast performance
+trace         	Trace route to destination
+trace6         	Trace route to destination using IPv6
+update-boot    	Update boot
+update-cpld    	Set update-cpld flag
+upload         	Upload file to host
+user           	cli user commands
+who            	List of the users connected
+write          	Write running configuration to memory
