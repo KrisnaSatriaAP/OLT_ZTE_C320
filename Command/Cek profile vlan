@@ -1,0 +1,14 @@
+show gpon onu profile vlan
+
+hasil :
+ZXAN(config)#show gpon onu profile vlan
+
+Profile name:  PPPOE
+Tag mode:      tag
+CVLAN:         501
+CVLAN priority:0
+
+Profile name:  PPPOE 2
+Tag mode:      tag
+CVLAN:         505
+CVLAN priority:7
