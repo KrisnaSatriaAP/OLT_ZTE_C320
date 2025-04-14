@@ -1,0 +1,90 @@
+sho gpon profile tcon
+
+hasil :
+ZXAN(config)#sho gpon profile tcon
+Name :default
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              10000       0           0
+Name :100M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 4              0           0           100000
+Name :UP-10M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              10240       0           0
+Name :UP-20M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              20000       0           0
+Name :UP-5M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              5120        0           0
+Name :UP-1M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              1024        0           0
+Name :UP-100M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              102400      0           0
+Name :UP-30M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              30000       0           0
+Name :2M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              2000        0           0
+Name :20M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 5              2000        5000        20000
+
+Name :15M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 4              0           0           15000
+Name :1000M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 4              0           0           1000000
+Name :500M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              500000      0           0
+Name :UP-500M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              502400      0           0
+Name :UP-200M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              2120000     0           0
+Name :1G
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              1000000     0           0
+Name :UP-1G
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              1000000     0           0
+Name :DW-1G
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              1000000     0           0
+Name :DW-100
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              100000      0           0
+Name :UP-100
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              100000      0           0
+
+Name :100
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              100000      0           0
+Name :200M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              200000      0           0
+Name :DW-20M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              20000       0           0
+Name :DW-25M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              25000       0           0
+Name :UP-25M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              25000       0           0
+Name :25M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              25000       0           0
+Name :30M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              30000       0           0
+Name :DW-30M
+ Type           FBW(kbps)   ABW(kbps)   MBW(kbps)
+ 1              30000       0           0
