@@ -1,0 +1,24 @@
+show gpon remote-onu equip gpon-onu_1/2/5:5
+
+hasil :
+ZXAN#show gpon remote-onu equip gpon-onu_1/2/5:5
+
+Vendor ID:           ZTEG
+Version:             V5.3
+SN:                  ZTEGc877785d
+Admin status:        unlock
+Battery backup:      false
+Security mode:       aes
+Product code:        0
+TotalPrioQueueNum:   64
+TotalTrafficSchNum:  8
+TrafficMgmtOption:   priority-rate-controlled
+OperState:           enable
+EquipID:             F609V5.3
+OMCC version:        a2
+Security capability: aes
+Model:               F609V5.3
+Survival time:       N/A
+TotalGemPortNum:     256
+SysUpTime:           0
+Region code:         N/A
