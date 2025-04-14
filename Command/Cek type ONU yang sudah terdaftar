@@ -1,0 +1,48 @@
+show onu-type
+
+hasil :
+ZXAN#show onu-type
+
+Onu type name:           China-Mobile-H1s-3
+Pon type:                gpon
+Description:             HUAWEI,XPON
+Max tcont:               40
+Max gemport:             255
+Max switch per slot:     32
+Max flow per switch:     200
+Max iphost:              5
+Service ability N:1:     support
+Service ability 1:M:     support
+Service ability 1:P:     support
+WiFi mgmt via non OMCI:  disable
+Omci send mode:          async
+Default multicast range: none
+
+Onu type name:           FIBERHOME-AN5506-04-FS
+Pon type:                gpon
+Description:             4ETH,2POTS,WIFI
+Max tcont:               40
+Max gemport:             255
+Max switch per slot:     32
+Max flow per switch:     200
+Max iphost:              5
+Service ability N:1:     support
+Service ability 1:M:     support
+Service ability 1:P:     support
+WiFi mgmt via non OMCI:  disable
+Omci send mode:          async
+Default multicast range: none
+
+Onu type name:           GM220-S
+Pon type:                gpon
+Description:             1GE+3FE+1Tel+USB+Wifi
+Max tcont:               40
+Max gemport:             255
+Max switch per slot:     32
+Max flow per switch:     200
+Max iphost:              5
+Service ability N:1:     support
+Service ability 1:M:     support
+Service ability 1:P:     support
+WiFi mgmt via non OMCI:  disable
+ --More--
