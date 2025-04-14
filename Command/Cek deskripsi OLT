@@ -1,0 +1,18 @@
+conf t
+show system-group
+
+hasil :
+ZXAN#conf t
+Enter configuration commands, one per line.  End with CTRL/Z.
+ZXAN(config)#show system-group
+System Description: ZXR10 ROS Version V4.6.02A
+ZXPON C320 Software, Version V1.2.5P3
+Copyright (c) 2000-2006 by ZTE Corporation
+Compiled 2015-01-05 03:50:18
+System ObjectId: .1.3.6.1.4.1.3902.1015.320.1.2
+System StartTime: 2024-12-21 3:58:59
+Started before: 113 days, 23 hours, 4 minutes
+Contact with: +86-021-68895000
+System name:  ZXAN
+Location: No.889 BiBo Rd. PuDong District, ShangHai, China
+This system primarily offers a set of 78 services
