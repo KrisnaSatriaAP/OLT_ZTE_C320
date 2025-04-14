@@ -1,0 +1,5 @@
+gpon onu move HWTC0488469D gpon-olt_1/2/14:1 gpon-olt_1/2/13:1
+
+HWTC0488469D adalah Serial Number dari ONU yang ingin dipindahkan.
+gpon-olt_1/2/14:1 adalah port sumber di mana ONU saat ini terhubung.
+gpon-olt_1/2/13:1 adalah port tujuan di mana ONU akan dipindahkan.
