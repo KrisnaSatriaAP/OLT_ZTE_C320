@@ -1,0 +1,17 @@
+show interface gpon-onu_1/2/5:4
+
+hasil :
+ZXAN#show interface gpon-onu_1/2/5:4
+ONU statistic:
+   Input rate :              21266 Bps              144 pps
+   Output rate:             420012 Bps              342 pps
+   Input bandwidth throughput :0.2%
+   Output bandwidth throughput: N/A
+Interface peak rate:
+   Input peak rate :            1861909 Bps             1617 pps
+   Output peak rate:            1640763 Bps             1633 pps
+Total statistic:
+  Input:
+    Bytes:137291520985         Packets:753677750
+  Output:
+    Bytes:1592344476399        Packets:1368141703
