@@ -1,0 +1,7 @@
+sho vlan sum
+
+hasil : 
+ZXAN#sho vlan sum
+All created vlan num: 21
+Details are following:
+    1,124,126-130,132-135,137,149,401,500-502,505,510-511,603
