@@ -1,0 +1,12 @@
+show temperature
+
+ZXAN#show temperature
+Card Temperature:
+-------------------------------------------
+Slot   Temperature(Celsius scale)
+-------------------------------------------
+1         N/A.
+2         37
+3         42
+4         N/A.
+-------------------------------------------
