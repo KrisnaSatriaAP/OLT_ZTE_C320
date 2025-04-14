@@ -1,0 +1,5 @@
+conf t
+gpon
+onu profile vlan netmedia143 tag-mode tag cvlan 143 pri 7
+end
+write
