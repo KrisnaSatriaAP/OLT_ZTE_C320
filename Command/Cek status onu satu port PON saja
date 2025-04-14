@@ -1,0 +1,39 @@
+show gpon onu state gpon-olt_1/2/5
+
+hasil :
+ZXAN#show gpon onu state gpon-olt_1/2/5
+OnuIndex               Admin State  OMCC State   O7 State     Phase State
+----------------------------------------------------------------------------
+gpon-onu_1/2/5:1       enable       disable      unknown      DyingGasp
+gpon-onu_1/2/5:2       enable       enable       operation    working
+gpon-onu_1/2/5:3       enable       enable       operation    working
+gpon-onu_1/2/5:4       enable       enable       operation    working
+gpon-onu_1/2/5:5       enable       enable       operation    working
+gpon-onu_1/2/5:6       enable       enable       operation    working
+gpon-onu_1/2/5:7       enable       enable       operation    working
+gpon-onu_1/2/5:8       enable       enable       operation    working
+gpon-onu_1/2/5:10      enable       enable       operation    working
+gpon-onu_1/2/5:11      enable       enable       operation    working
+gpon-onu_1/2/5:12      enable       enable       operation    working
+gpon-onu_1/2/5:14      enable       enable       operation    working
+gpon-onu_1/2/5:15      enable       enable       operation    working
+gpon-onu_1/2/5:16      enable       enable       operation    working
+gpon-onu_1/2/5:17      enable       enable       operation    working
+gpon-onu_1/2/5:18      enable       enable       operation    working
+gpon-onu_1/2/5:19      enable       enable       operation    working
+gpon-onu_1/2/5:20      enable       enable       operation    working
+gpon-onu_1/2/5:21      enable       enable       operation    working
+gpon-onu_1/2/5:22      enable       enable       operation    working
+gpon-onu_1/2/5:23      enable       enable       operation    working
+gpon-onu_1/2/5:26      enable       enable       operation    working
+gpon-onu_1/2/5:27      enable       enable       operation    working
+gpon-onu_1/2/5:29      enable       enable       operation    working
+gpon-onu_1/2/5:30      enable       enable       operation    working
+gpon-onu_1/2/5:32      enable       disable      unknown      DyingGasp
+gpon-onu_1/2/5:34      enable       enable       operation    working
+gpon-onu_1/2/5:35      enable       enable       operation    working
+gpon-onu_1/2/5:36      enable       enable       operation    working
+gpon-onu_1/2/5:37      enable       enable       operation    working
+gpon-onu_1/2/5:38      enable       enable       operation    working
+gpon-onu_1/2/5:39      enable       enable       operation    working
+ONU Number: 30/32
