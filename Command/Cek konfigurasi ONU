@@ -1,0 +1,12 @@
+show onu running config gpon-onu_1/2/5:5
+
+ZXAN#show onu running config gpon-onu_1/2/5:5
+pon-onu-mng gpon-onu_1/2/5:5
+  service PPPOE type internet gemport 1 vlan 501
+  wan-ip 1 mode pppoe username tertek@hari_sudi-astutik password 5758 vlan-profi
+le PPPOE host 1
+  wan-ip 1 ping-response enable traceroute-response enable
+  interface wifi wifi_0/2 state lock
+  security-mng 1 state enable mode permit protocol web
+  ssid ctrl wifi_0/2 name Miber.id
+!
