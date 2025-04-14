@@ -1,0 +1,9 @@
+show mac gpon onu gpon-onu_1/2/5:5
+
+hasil :
+ZXAN#show mac gpon onu gpon-onu_1/2/5:5
+Total mac address : 1
+
+Mac address      Vlan   Type      Port                         Vc
+------------------------------------------------------------------------
+20e8.82cd.3ce9   501    Dynamic   gpon-onu_1/2/5:5          vport 1
