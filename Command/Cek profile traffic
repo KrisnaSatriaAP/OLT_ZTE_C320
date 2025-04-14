@@ -1,0 +1,68 @@
+sho gpon profile traffic
+
+hasil :
+ZXAN(config)#sho gpon profile traffic
+Name  :default
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 10000000            10000000            default             default
+Name  :100M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 100000              100000              default             default
+Name  :DOWN-20M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 20480               20480               default             default
+Name  :DOWN-10M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 10240               10240               default             default
+Name  :DOWN-5M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 5120                5120                default             default
+Name  :DOWN-1M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 1024                1024                default             default
+Name  :DOWN-100M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 102400              102400              default             default
+Name  :DOWN-30M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 31000               31000               default             default
+Name  :ASNET
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 20480               20480               default             default
+Name  :ASNET2
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 20480               20480               default             default
+Name  :1000M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 1000000             1000000             default             default
+Name  :DOWN-1000M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 102400              1024000             default             default
+Name  :UP100
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 100000              120000              default             default
+Name  :DW100
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 100000              120000              default             default
+Name  :10M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 10000               10000               default             default
+Name  :50M
+  SIR(kbps)           PIR(kbps)           CBS(kbytes)         PBS(kbytes)
+
+ 50000               50000               default             default
