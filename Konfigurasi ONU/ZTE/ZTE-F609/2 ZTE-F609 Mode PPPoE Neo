@@ -1,4 +1,4 @@
-#ONU ZTE F609 - PPPoE Neo
+#ONU ZTE-F609 Mode PPPoE Neo
 
 #mendaftarkan ONU
 conf t
