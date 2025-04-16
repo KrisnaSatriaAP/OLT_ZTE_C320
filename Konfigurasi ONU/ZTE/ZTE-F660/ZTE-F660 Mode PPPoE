@@ -1,4 +1,4 @@
-#ONU ZTE F660 - PPPoE
+#ONU ZTE-F660 Mode PPPoE
 
 #mendaftarkan ONU
 conf t
