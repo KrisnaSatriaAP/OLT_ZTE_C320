@@ -33,7 +33,8 @@ security-mng 1 state enable mode permit protocol web
 exit
 end
 
-write #jika sudah yakin benar
+#jika sudah yakin benar
+write 
 
 #reset onu
 conf t
