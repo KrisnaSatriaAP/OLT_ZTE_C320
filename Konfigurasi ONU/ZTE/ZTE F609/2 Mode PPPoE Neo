@@ -8,8 +8,8 @@ exit
 
 #konfigurasi
 interface gpon-onu_1/2/9:250
-name panggungrejo@dwita_yuni_p titipan neo
-description panggungrejo@dwita_yuni_p titipan neo
+name gang1@budi
+description gang1@budi
 sn-bind enable sn
 tcont 1 name PPPOE profile 100M
 gemport 1 name PPPOE unicast tcont 1 dir both
@@ -27,7 +27,7 @@ exit
 #konfigurasi
 pon-onu-mng gpon-onu_1/2/9:250
 service PPPOE type internet gemport 1 vlan 505
-wan-ip 1 mode pppoe username panggungrejo@dwita_yuni_p password 5758 vlan-profile userneo host 1
+wan-ip 1 mode pppoe username gang1@budi password 5758 vlan-profile userneo host 1
 wan-ip 1 ping-response enable traceroute-response enable
 security-mng 1 state enable mode permit protocol web
 exit
