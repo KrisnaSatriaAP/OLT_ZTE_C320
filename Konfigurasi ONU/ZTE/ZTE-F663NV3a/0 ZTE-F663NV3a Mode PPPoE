@@ -1,4 +1,4 @@
-#ONU ZTE F663NV3a Mode PPPoE
+#ONU ZTE-F663NV3a Mode PPPoE
 
 #mendaftarkan ONU
 conf t
