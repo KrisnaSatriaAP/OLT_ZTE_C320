@@ -1,3 +1,5 @@
+#ZTE-F609 Disable Hotspot
+
 conf t
 pon-onu-mng gpon-onu_1/2/1:250
 no service HOSTPOT
