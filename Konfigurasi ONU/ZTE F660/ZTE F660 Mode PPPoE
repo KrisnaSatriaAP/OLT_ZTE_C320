@@ -1,0 +1,42 @@
+#ONU ZTE F660 - PPPoE
+
+#mendaftarkan ONU
+conf t
+interface gpon-olt_1/2/3
+onu 250 type ZTE-F660 sn ZTEGCCC8BB5F
+exit
+
+#konfigurasi
+interface gpon-onu_1/2/3:250
+name gang1@budi
+description gang1@budi
+sn-bind enable sn
+tcont 1 name PPPOE profile 100M
+gemport 1 name PPPOE unicast tcont 1 dir both
+gemport 1 traffic-limit upstream UP100 downstream DW100
+switchport mode hybrid vport 1
+service-port 1 vport 1 user-vlan 501 vlan 501
+port-location format dsl-forum sport 1
+port-location sub-option remote-id enable sport 1
+port-location sub-option remote-id name 17 sport 1
+port-location ft-cid 17 sport 1
+pppoe-plus enable sport 1
+pppoe-plus trust true replace sport 1
+exit
+
+#konfigurasi
+pon-onu-mng gpon-onu_1/2/3:250
+service PPPOE type internet gemport 1 vlan 501
+wan-ip 1 mode pppoe username gang1@budi password 5758 vlan-profile PPPOE host 1
+wan-ip 1 ping-response enable traceroute-response enable
+security-mng 1 state enable mode permit protocol web
+exit
+end
+
+#jika sudah yakin benar
+write 
+
+#reset onu
+conf t
+pon-onu-mng gpon-onu_1/2/3:250
+restore factory
