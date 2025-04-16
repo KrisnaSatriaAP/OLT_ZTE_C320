@@ -1,4 +1,4 @@
-#ONU ZTE F609 - Bridge dan PPPOE
+#ONU ZTE-F609 Mode Bridge dan PPPOE
 
 #konfigurasi vlan
 conf t
