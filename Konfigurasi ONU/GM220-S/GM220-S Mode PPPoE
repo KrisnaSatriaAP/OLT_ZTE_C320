@@ -1,4 +1,4 @@
-#ONU GM220-S - PPPoE
+#ONU GM220-S Mode PPPoE
 
 #mendaftarkan ONU
 conf t
