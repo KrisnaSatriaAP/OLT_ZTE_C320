@@ -1,0 +1,6 @@
+#Add ONU Type ZTE-F663NV3a
+conf t
+pon
+onu-type ZTE-F663NV3a gpon description 4ETH,1POTS,WIFI max-tcont 40 max-gemport 255 max-switch-perslot 32 max-flow-perswitch 200 max-iphost 5
+end
+write
