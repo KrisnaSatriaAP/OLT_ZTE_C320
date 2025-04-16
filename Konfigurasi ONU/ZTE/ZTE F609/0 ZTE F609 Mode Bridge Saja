@@ -3,8 +3,9 @@
 #konfigurasi vlan
 conf t
 vlan 124
-name vlan124_gang1_budi
+name vlan124_hub_gang1_budi
 exit
+
 int xgei_1/3/2
 switchport vlan 124 tag
 end
