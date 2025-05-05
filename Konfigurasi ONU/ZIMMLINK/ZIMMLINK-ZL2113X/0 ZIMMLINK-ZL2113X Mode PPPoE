@@ -33,8 +33,3 @@ end
 
 #jika sudah yakin benar
 write 
-
-#reset onu
-conf t
-pon-onu-mng gpon-onu_1/2/3:250
-restore factory
