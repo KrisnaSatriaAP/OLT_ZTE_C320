@@ -1,0 +1,10 @@
+no vlan 126
+
+lalu cek dengan perintah :
+sho vlan 126
+jika hasil 
+%Code 30514: This vlan does not exist.
+berarti sudah berhasil hapus
+
+save perintah :
+write
