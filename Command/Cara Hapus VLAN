@@ -1,8 +1,8 @@
 conf t
-no vlan 126
+no vlan 2667
 
 lalu cek dengan perintah :
-sho vlan 126
+sho vlan 2667
 jika hasil 
 %Code 30514: This vlan does not exist.
 berarti sudah berhasil hapus
