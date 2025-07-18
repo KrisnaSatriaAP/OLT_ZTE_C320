@@ -14,7 +14,7 @@ write
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/2
-onu 250 type ZTEG-F609 sn ZTEGC836E032
+onu 250 type ZTEG-F609 sn ZTEGC836E043
 exit
 
 #konfigurasi
