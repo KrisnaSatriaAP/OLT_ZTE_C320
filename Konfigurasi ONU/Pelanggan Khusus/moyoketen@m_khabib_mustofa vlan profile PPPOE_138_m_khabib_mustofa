@@ -1,3 +1,23 @@
+#buat vlan
+conf t
+vlan 138
+name vlan_138_m_khabib_mustofa
+exit
+end
+write
+
+#tag vlan
+conf t
+int xgei_1/3/2
+switchport vlan 138 tag
+
+#profile vlan
+conf t
+gpon
+onu profile vlan PPPOE_138_m_khabib_mustofa tag-mode tag cvlan 138 pri 7
+end
+write
+
 #ONU ZTE-F609 Mode PPPoE
 
 #mendaftarkan ONU
