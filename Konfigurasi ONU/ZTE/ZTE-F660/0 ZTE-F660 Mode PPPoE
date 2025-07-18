@@ -3,7 +3,7 @@
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/3
-onu 250 type ZTE-F660 sn ZTEGCCC8BB5F
+onu 250 type ZTE-F660 sn ZTEGCCC3BB9F
 exit
 
 #konfigurasi
