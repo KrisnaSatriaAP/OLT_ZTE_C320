@@ -1,4 +1,4 @@
-#ONU HUAWEI-HG8245A Mode Bridge
+#ONU HUAWEI-HG8245H Mode Bridge
 
 #mendaftarkan ONU
 conf t
@@ -29,9 +29,4 @@ exit
 end
 
 #jika sudah yakin benar
-write 
-
-#reset onu
-conf t
-pon-onu-mng gpon-onu_1/2/14:250
-restore factory
+write
