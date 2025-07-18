@@ -1,1 +1,1 @@
-Command OLT ZTE C320
+Konfigurasi OLT ZTE C320
