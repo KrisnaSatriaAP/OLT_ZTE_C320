@@ -1,0 +1,37 @@
+#ONU HUAWEI-HG8245A Mode Bridge
+
+#mendaftarkan ONU
+conf t
+interface gpon-olt_1/2/14
+onu 250 type HUAWEI-HG8245H sn HWTC46EA8165
+exit
+
+#konfigurasi
+interface gpon-onu_1/2/14:250
+name HUB_gang1@budi
+description HUB_gang1@budi
+sn-bind enable sn
+tcont 1 name PPPOE profile 100M
+gemport 1 name 1 unicast tcont 1 dir both
+gemport 1 traffic-limit upstream UP100 downstream DW100
+switchport mode hybrid vport 1
+service-port 1 vport 1 user-vlan 134 vlan 134
+exit
+
+#konfigurasi
+pon-onu-mng gpon-onu_1/2/14:250
+service PPPOE gemport 1 vlan 134
+vlan port eth_0/1 mode tag vlan 134
+vlan port eth_0/2 mode tag vlan 134
+vlan port eth_0/3 mode tag vlan 134
+vlan port eth_0/4 mode tag vlan 134
+exit
+end
+
+#jika sudah yakin benar
+write 
+
+#reset onu
+conf t
+pon-onu-mng gpon-onu_1/2/14:250
+restore factory
