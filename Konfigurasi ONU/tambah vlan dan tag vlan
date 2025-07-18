@@ -1,0 +1,10 @@
+#tambah vlan dan tag vlan
+conf t
+vlan 423
+name beji@dispendik_ta
+exit
+int xgei_1/3/2
+switchport vlan 423 tag
+exit
+end
+write
