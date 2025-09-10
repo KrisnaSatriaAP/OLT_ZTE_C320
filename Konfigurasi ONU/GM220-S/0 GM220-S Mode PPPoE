@@ -11,9 +11,9 @@ interface gpon-onu_1/2/4:250
 name gang1@budi
 description gang1@budi
 sn-bind enable sn
-tcont 1 name PPPOE profile 100M
+tcont 1 name PPPOE profile 1000M
 gemport 1 name PPPOE unicast tcont 1 dir both
-gemport 1 traffic-limit upstream UP100 downstream DW100
+gemport 1 traffic-limit upstream 1000M downstream 1000M
 switchport mode hybrid vport 1
 service-port 1 vport 1 user-vlan 501 vlan 501
 port-location format dsl-forum sport 1
