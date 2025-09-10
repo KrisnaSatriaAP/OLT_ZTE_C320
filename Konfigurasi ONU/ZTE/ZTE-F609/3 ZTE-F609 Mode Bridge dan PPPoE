@@ -21,12 +21,12 @@ exit
 interface gpon-onu_1/2/2:250
 name HUB_gang1@budi
 description HUB_gang1@budi
-tcont 1 name PPPOE profile 100M
-tcont 2 name PPPOE1 profile 100M
+tcont 1 name PPPOE profile 1000M
+tcont 2 name PPPOE1 profile 1000M
 gemport 1 name PPPOE unicast tcont 1 dir both
-gemport 1 traffic-limit upstream UP100 downstream DW100
+gemport 1 traffic-limit upstream 1000M downstream 1000M
 gemport 2 name PPPOE1 unicast tcont 2 dir both
-gemport 2 traffic-limit upstream UP100 downstream DW100
+gemport 2 traffic-limit upstream 1000M downstream 1000M
 switchport mode hybrid vport 1
 switchport mode hybrid vport 2
 service-port 1 vport 1 user-vlan 501 vlan 501
