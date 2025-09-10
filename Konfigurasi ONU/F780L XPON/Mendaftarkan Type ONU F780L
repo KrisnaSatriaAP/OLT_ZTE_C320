@@ -1,0 +1,14 @@
+#mendaftarkan
+
+conf t
+pon
+onu-type F780L gpon description 1GE+3FE+1POTS+WIFI
+onu-type F780L gpon max-tcont 7 max-gemport 32 max-switch-perslot 8 max-flow-perswitch 32 max-iphost 5
+onu-type-if F780L eth_0/1-4
+onu-type-if F780L pots_0/1
+onu-type-if F780L wifi_0/1
+end
+write
+
+#cek apa sudah masuk
+sho onu-type gpon F780L
