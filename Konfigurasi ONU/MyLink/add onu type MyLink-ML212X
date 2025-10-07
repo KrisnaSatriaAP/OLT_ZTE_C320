@@ -1,4 +1,4 @@
-#add onu type HUAWEI-HG8546M
+#add onu type MyLink-ML212X
 
 conf t
 pon
