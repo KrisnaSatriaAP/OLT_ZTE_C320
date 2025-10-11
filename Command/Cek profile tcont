@@ -1,4 +1,4 @@
-sho gpon profile tcon
+sho gpon profile tcont
 
 hasil :
 ZXAN(config)#sho gpon profile tcon
