@@ -1,0 +1,5 @@
+conf t
+gpon
+profile tcont 100M type 1 fixed 105000
+end
+write

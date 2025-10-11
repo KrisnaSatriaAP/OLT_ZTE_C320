@@ -1,5 +1,0 @@
-conf t
-gpon
-profile tcon 100M type 1 fixed 105000
-end
-write
