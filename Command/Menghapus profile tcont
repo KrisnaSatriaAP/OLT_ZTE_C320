@@ -1,5 +1,5 @@
 conf t
 gpon
-no profile tcon 100M
+no profile tcont 100M
 end
 write
