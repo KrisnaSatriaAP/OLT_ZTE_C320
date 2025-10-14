@@ -1,0 +1,14 @@
+conf t
+interface gpon-olt_1/1/1
+pnp enable
+
+PnP (Plug and Play) pada GPON biasanya berarti fitur auto-discovery atau auto-configuration ONU.
+Tujuannya: saat ONU baru dicolok (tanpa whitelist manual), OLT bisa mendeteksi otomatis dan — kalau diizinkan — mendaftarkan atau menggunakan template konfigurasi default.
+
+Untuk mengaktifkannya, kamu perlu mengatur:
+
+Port PON dalam mode PnP.
+
+(Opsional) Template konfigurasi PnP (default profile).
+
+Mengizinkan ONU auto-register (tanpa whitelist).
