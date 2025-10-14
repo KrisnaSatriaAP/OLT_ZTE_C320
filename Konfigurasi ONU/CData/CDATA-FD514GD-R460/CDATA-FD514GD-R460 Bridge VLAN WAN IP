@@ -2,6 +2,7 @@
 #wan ip 10.9.52.4 via vlan 10
 #profile tcont 1000M
 #bridge port lan 1 saja
+#type onu CDATA-FD514GD-R460
 
 conf t
 interface gpon-olt_1/1/1
