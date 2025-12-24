@@ -1,0 +1,19 @@
+#disable port lan 1 onu
+config t
+pon-onu-mng gpon-onu_1/2/5:5
+interface eth eth_0/1 state lock
+
+#disable port lan 2 onu
+config t
+pon-onu-mng gpon-onu_1/2/5:5
+interface eth eth_0/2 state lock
+
+#disable port lan 3 onu
+config t
+pon-onu-mng gpon-onu_1/2/5:5
+interface eth eth_0/3 state lock
+
+#disable port lan 4 onu
+config t
+pon-onu-mng gpon-onu_1/2/5:5
+interface eth eth_0/4 state lock
