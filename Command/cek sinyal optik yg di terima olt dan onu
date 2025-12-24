@@ -7,3 +7,6 @@ ZXAN#sho pon power attenuation gpon-onu_1/2/5:5
  up      Rx :-26.473(dbm)      Tx:2.072(dbm)        28.545(dB)
 
  down    Tx :6.450(dbm)        Rx:-20.970(dbm)      27.420(dB)
+
+onu rx yang di terima onu
+olt rx yang di terima olt
