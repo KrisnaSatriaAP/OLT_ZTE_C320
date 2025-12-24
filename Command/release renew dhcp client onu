@@ -1,4 +1,4 @@
 config t
-pon-onu-mng gpon-onu_1/2/5:5
+pon-onu-mng gpon-onu_1/2/20:500
 ip-host 1 dhcp-enable false ping-response false traceroute-response false
 ip-host 1 dhcp-enable true ping-response true traceroute-response true
