@@ -1,0 +1,15 @@
+#lan 1
+pon-onu-mng gpon-onu_1/2/20:500
+iinterface eth eth_0/1 state unlock
+
+#lan 2
+pon-onu-mng gpon-onu_1/2/20:500
+iinterface eth eth_0/2 state unlock
+
+#lan 3
+pon-onu-mng gpon-onu_1/2/20:500
+iinterface eth eth_0/3 state unlock
+
+#lan 4
+pon-onu-mng gpon-onu_1/2/20:500
+iinterface eth eth_0/4 state unlock
