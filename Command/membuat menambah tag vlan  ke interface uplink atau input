@@ -1,3 +1,5 @@
+#menambah tag vlan  ke interface uplink atau input
+
 conf t
 int xgei_1/3/2
 switchport vlan 132 tag
