@@ -1,0 +1,5 @@
+conf t
+gpon
+no profile traffic 10000M
+end
+write

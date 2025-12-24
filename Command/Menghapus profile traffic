@@ -1,5 +1,0 @@
-conf t
-gpon
-no profile traffic 100M
-end
-write
