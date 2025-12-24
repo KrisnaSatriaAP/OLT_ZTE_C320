@@ -1,4 +1,4 @@
-1.
+1. uplink xgei_1/3/2
 show vlan port xgei_1/3/2
 
 hasil :
@@ -13,7 +13,8 @@ TaggedVlan:
 510-511,603
 
 -----------------------------------------------------------------
-2.
+
+2. uplink gei_1/3/1
 show vlan port gei_1/3/1
 
 hasil :
