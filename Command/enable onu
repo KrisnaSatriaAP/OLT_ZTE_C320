@@ -1,0 +1,6 @@
+#enable onu
+conf t
+interface gpon-onu_1/2/20:500
+no shutdown
+end
+write
