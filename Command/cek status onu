@@ -1,8 +1,0 @@
-show gpon onu state gpon-olt_1/2/5 4
-
-hasil :
-ZXAN#show gpon onu state gpon-olt_1/2/5 4
-OnuIndex               Admin State  OMCC State   O7 State     Phase State
-----------------------------------------------------------------------------
-gpon-onu_1/2/5:4       enable       enable       operation    working
-ONU Number: 1/1
