@@ -1,5 +1,22 @@
 #ONU CDATA-FD514GD-R460 Mode PPPoE
 
+#buat vlan
+conf t
+vlan 262
+name vlan_262_NEO_SMKN_2_Boyolangu
+
+#konfigurasi vlan tag
+conf t
+int xgei_1/3/2
+switchport vlan 262 tag
+
+#membuat profile vlan
+conf t
+gpon
+onu profile vlan NEO_SMKN_2_Boyolangu tag-mode tag cvlan 262 pri 7
+end
+write
+
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/12
