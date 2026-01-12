@@ -1,0 +1,5 @@
+#enable port interface PON
+conf t
+interface gpon-olt_1/2/20
+no shutdown
+write (jika sudah yakin benar)
