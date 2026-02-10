@@ -1,0 +1,11 @@
+sho onu-type gpon AZV-67V5
+
+conf t
+pon
+onu-type AZV-67V5 gpon description 1GE+3FE+1POTS+WIFI
+onu-type AZV-67V5 gpon max-tcont 7 max-gemport 32 max-switch-perslot 8 max-flow-perswitch 32 max-iphost 5
+onu-type-if AZV-67V5 eth_0/1-4
+onu-type-if AZV-67V5 pots_0/1
+onu-type-if AZV-67V5 wifi_0/1
+end
+write
