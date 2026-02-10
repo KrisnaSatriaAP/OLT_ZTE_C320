@@ -3,11 +3,11 @@
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/20
-onu 555 type AZV-67V5 sn ELWGC4A88619
+onu 500 type AZV-67V5 sn ELWGC4A89629
 exit
 
 #konfigurasi
-interface gpon-onu_1/2/20:555
+interface gpon-onu_1/2/20:500
 name gang1@budi
 description gang1@budi
 sn-bind enable sn
@@ -25,7 +25,7 @@ pppoe-plus trust true replace sport 1
 exit
 
 #konfigurasi
-pon-onu-mng gpon-onu_1/2/20:555
+pon-onu-mng gpon-onu_1/2/20:500
 service PPPOE type internet gemport 1 vlan 501
 wan-ip 1 mode pppoe username gang1@budi password 5758 vlan-profile PPPOE host 1
 wan-ip 1 ping-response enable traceroute-response enable
