@@ -3,7 +3,7 @@
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/20
-onu 500 type AZV-67V5 sn ELWGC4A89629
+onu 500 type AZV-67V5 sn ELWGC4FB062A
 exit
 
 #konfigurasi
