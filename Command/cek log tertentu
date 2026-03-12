@@ -1,0 +1,3 @@
+misal menampilkan yang gpon-onu_1/2/12:3
+
+show logging alarm | include gpon-onu_1/2/12:3
