@@ -1,4 +1,4 @@
-#ONU HSAirPo-XPW300-V2 Mode PPPoE
+#ONU HSAirPo-XPW300 Mode PPPoE
 
 #mendaftarkan ONU
 conf t
