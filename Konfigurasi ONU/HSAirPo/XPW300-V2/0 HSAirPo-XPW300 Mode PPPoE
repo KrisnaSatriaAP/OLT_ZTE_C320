@@ -3,7 +3,7 @@
 #mendaftarkan ONU
 conf t
 interface gpon-olt_1/2/20
-onu 900 type HSAirPo-XPW300-V2 sn HSCG27879738
+onu 900 type HSAirPo-XPW300 sn HSCG27879738
 exit
 
 #konfigurasi
