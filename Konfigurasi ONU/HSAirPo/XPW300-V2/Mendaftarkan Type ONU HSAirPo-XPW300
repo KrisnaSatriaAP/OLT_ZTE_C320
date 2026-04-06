@@ -1,0 +1,10 @@
+#HSAirPo-XPW300
+
+conf t
+pon
+onu-type HSAirPo-XPW300 gpon description 1GE+3FE+WIFI
+onu-type HSAirPo-XPW300 gpon max-tcont 7 max-gemport 32 max-switch-perslot 8 max-flow-perswitch 32 max-iphost 5
+onu-type-if HSAirPo-XPW300 eth_0/1-4
+onu-type-if HSAirPo-XPW300 wifi_0/1-4
+end
+write
